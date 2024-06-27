@@ -1,0 +1,31 @@
+.success-stories-container {
+  background-image: url('./images/bak.jpg');
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(8px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+  .success-stories-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+  }
+
+  .phones-box {
+      max-width: 100%;
+  }
+}

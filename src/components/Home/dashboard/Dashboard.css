@@ -1,0 +1,35 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    flex-grow: 1;
+    padding: 24px;
+    background-color: #f0f2f5; /* Couleur de fond du tableau de bord */
+  }
+  
+  .card {
+    padding: 16px;
+    text-align: center;
+    background-color: #fff; /* Couleur de fond des cartes */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Ombre des cartes */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card h5 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .card-subtitle {
+    color: #757575;
+  }
+  
+  .main-chart, .stock-chart {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #fff; /* Couleur de fond des sections de graphique */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Ombre des sections de graphique */
+  }
+  
